@@ -1,0 +1,10 @@
+# Tim's game -- cloned separately, never committed (no license to redistribute)
+Python-Aim-Trainer/
+
+# recorded data and rendered videos
+data/
+videos/
+
+# caches
+__pycache__/
+*.part.mp4
