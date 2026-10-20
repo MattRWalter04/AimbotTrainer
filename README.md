@@ -87,23 +87,6 @@ three scripts on the shared Drive folder.
    git -C Python-Aim-Trainer checkout 12d853abca793b1e7c7022068544019228b62cac
    ```
 
-### Sharing with a partner (Google Drive)
-
-The game runs on your own computers (Colab has no screen or mouse). Put this
-whole folder in a shared Google Drive folder, and both of you will record into
-the same `data/`.
-
-- **Owner:** install [Google Drive for desktop](https://www.google.com/drive/download/),
-  put this folder (with `Python-Aim-Trainer/`) inside a Drive folder called
-  `AimCheatStudy`, and share that folder with your partner as an **Editor**.
-- **Partner:** install Google Drive for desktop. On drive.google.com, right-click
-  the shared folder → **Organize → Add shortcut** → **My Drive**. Then open a
-  terminal in the folder (usually `G:\My Drive\AimCheatStudy\aim-cheat-study`)
-  and run `python game.py`.
-
-Each session writes only its own new folder, so you can both record at the
-same time. Menu settings are saved per person, in your own user folder.
-
 ## Changes to Tim's game
 
 All of these are in `game.py`. Tim's `tutorial.py` itself is untouched.
@@ -123,4 +106,3 @@ His repository has no license, so his code isn't redistributed with this
 project. Clone it as shown above. Everything else here is original work for
 this study.
 
-<!-- Before publishing, choose a license for YOUR code (e.g. MIT) and add a LICENSE file. -->
